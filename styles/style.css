@@ -1,0 +1,256 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+.contaner {
+    margin: 0px 20px;
+}
+.header{
+    height: 100px;
+    background-color:#9564AA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo_img {
+    color: aliceblue;
+    font-size: 48px;
+    
+}
+.nav_logo ul {
+    display: flex;
+    list-style: none;
+}
+.nav_logo ul li a {
+    text-decoration: none;
+    margin-left: 53px;
+    color: aliceblue;
+}
+.nav_logo {
+    margin-right: 0px;
+}
+.prem_nav {
+    background-color:  #684677;
+    border-radius: 10px;
+    padding: 5px 41px 5px 5px;
+    color: #FFCF2D !important;
+}
+.space_main {
+    margin: 20px;
+}
+.main_block {
+    display: flex;
+    margin-top: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.block_list_nav {
+    width: 270px;
+    height: 810px;
+    border:#9564AA1A solid 2px;
+    border-radius: 10px;
+    background-color: #9564AA1A;    
+}
+/*--------------------block_main_heder-----------*/
+.block_mian_body h1 {
+    margin-top: -6px;
+    
+}
+.block_mian_body hr {
+    width: 100%;
+    color: #9564AA;
+    opacity: 0.2;
+}
+.block_mian_body {
+    margin-left: 30px;
+    width: 870px;
+    height: 810px;
+}
+
+.block_main_timer {
+    width: 100%;
+    height: 82px;
+    background-color: #C15CA1;
+    border-radius: 10px;
+}
+/*--------------------block_main_heder-----------*/
+
+/*--------------------block_list_header-------------*/
+.block_list_header_profil {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header_profil_line {
+    opacity: 0.2;
+}
+.image_profil img {
+    max-height: 60px;
+    max-width: 60px;
+    background-color: #ffffff;
+    border-radius: 150px;
+}
+
+.image_profil {
+    margin-right: 18px;
+    margin-left: 17px;
+}
+
+.profi_premium {
+    background-color: #684677;
+    color: #ffffff;
+    border: #684677 solid 5px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.profil_name {
+    margin: 0px 0px 0px 0px;
+}
+
+.name_profil {
+    margin-top: 18px;
+}
+
+.nav_list ul li{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+/*--------------------block_list_header-------------*/
+/*--------------------block_main_Timer---------------*/
+.block_main_timer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skidka {
+    display: flex;
+    align-items: center;
+    color: #FFCF2D;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    font-size: 35px; 
+}
+
+.duratin {
+    color: #ffffff;
+}
+
+.timer {
+    background-color: aliceblue;
+    width: 238px;
+    height: 56px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer p {
+    font-size: 32px;
+    margin: 7px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.timer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 32px;
+}
+.block_main_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    margin-top: 10px;
+    gap: 0px 10px;
+}
+
+.main_card {
+    border: #684677 solid 2px;
+    background-color: rgb(104, 70, 119, 0.1);
+    border-radius: 10px;
+    flex-basis: 150px;
+    
+    margin-top: 16px;
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+.main_card_row {
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.main_card:hover {
+    background-color: rgb(104, 70, 119, 1);
+}
+.main_card:hover .button_card_buy {
+     background-color: #FFCF2D;
+}
+.main_card:hover .praci  {
+    color: #ffffff;
+}
+
+.praci_card {
+    height: 52px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 7px;
+    
+}
+.praci_title {
+    background-color: #FFCF2D;
+    border-radius: 10px;
+    width: 22px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 5px;
+}
+
+.button_card_buy {
+    height: 52px;
+    width: 120px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.chekbox_button {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+}
+.chekbox_button input {
+    accent-color: #684677;
+}
+
+.chekbox_button span {
+    opacity: 0.7;
+}
+
+
+/*--------------------block_main_Timer---------------*/
