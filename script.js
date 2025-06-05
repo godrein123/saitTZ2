@@ -1,6 +1,6 @@
 
-import { timer } from "./modules/TimerAllTime.js";
-import { changeWidth } from "./modules/checkWidthCard.js";
+import { timer } from "/modules/TimerAllTime.js";
+import { changeWidth } from "/modules/checkWidthCard.js";
 const buttonCase = document.getElementById('create_main_card');
 
 export function addDiv() {
